@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;HACK&quot; IOSTANDARD = SDIO;&gt; [vga.ucf(7)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;HACK&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;S&quot; IOSTANDARD = SDIO;&gt; [vga.ucf(11)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;S&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="119" delta="old" >Constraint <arg fmt="%s" index="1">&lt;NET &quot;W&quot; IOSTANDARD = SDIO;&gt; [vga.ucf(14)]</arg>: This constraint cannot be distributed from the design objects matching &apos;<arg fmt="%s" index="2">NET &quot;W&quot;</arg>&apos; because those design objects do not contain or drive any instances of the correct type.
+</msg>
+
+</messages>
+

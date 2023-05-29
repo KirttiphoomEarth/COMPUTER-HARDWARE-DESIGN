@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon May 22 01:41:47 2023
+# Process ID: 9910
+# Log file: /home/ise/VM/vga_3/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/VM/vga_3/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/VM/vga_3/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard SDIO [get_ports [list BLUE]]
+set_property iostandard SDIO [get_ports [list CLOCK]]
+set_property iostandard SDIO [get_ports [list GREEN]]
+set_property iostandard SDIO [get_ports [list HACK]]
+set_property iostandard PCI66_3 [get_ports [list RED]]
+set_property iostandard LVCMOS25 [get_ports [list RESET]]
+set_property iostandard SDIO [get_ports [list RED]]
+set_property iostandard SDIO [get_ports [list HSYNC]]
+set_property iostandard SDIO [get_ports [list RESET]]
+set_property iostandard SDIO [get_ports [list S]]
+set_property iostandard SDIO [get_ports [list SEND_CLEAR]]
+set_property iostandard SDIO [get_ports [list VSYNC]]
+set_property iostandard SDIO [get_ports [list W]]
+startgroup
+set_property package_pin P9 [get_ports BLUE]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports CLOCK]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports GREEN]
+endgroup
+set_property package_pin "" [get_ports [list  HACK]]
+startgroup
+set_property package_pin P5 [get_ports RED]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports HSYNC]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P16 [get_ports VSYNC]
+endgroup
+save_constraints

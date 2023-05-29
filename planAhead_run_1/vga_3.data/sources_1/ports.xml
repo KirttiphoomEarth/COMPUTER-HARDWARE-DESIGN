@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Port Id="W" Dir="IN"/>
+		<Port Id="S" Dir="IN"/>
+		<Port Id="HACK" Dir="IN"/>
+		<Port Id="RESET" Dir="IN"/>
+		<Port Id="CLOCK" Dir="IN"/>
+		<Port Id="SEND_CLEAR" Dir="OUT"/>
+		<Port Id="RED" Dir="OUT"/>
+		<Port Id="GREEN" Dir="OUT"/>
+		<Port Id="BLUE" Dir="OUT"/>
+		<Port Id="HSYNC" Dir="OUT"/>
+		<Port Id="VSYNC" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

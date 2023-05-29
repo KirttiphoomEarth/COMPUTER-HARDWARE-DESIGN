@@ -1,0 +1,844 @@
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+vhdtdtfi -prj vga_3 -o /home/ise/VM/vga_3/GAME.tfi -module GAME -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ../vga_from_dee.vhd 
+vhdtdtfi -lib work ../vga_from_dee.vhd -prj vga_3 -o GAME.spl -module GAME -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 GAME.spl /home/ise/VM/vga_3/GAME.sym 
+vhdtdtfi -prj vga_3 -o /home/ise/VM/vga_3/GAME.tfi -module GAME -template /opt/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work ../vga_from_dee.vhd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+vhdtdtfi -lib work ../vga_from_dee.vhd -prj vga_3 -o GAME.spl -module GAME -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 GAME.spl /home/ise/VM/vga_3/GAME.sym 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 
+xst -intstyle ise -ifn "/home/ise/VM/vga_3/GAME.xst" -ofn "/home/ise/VM/vga_3/GAME.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc vga.ucf -p xc6slx9-tqg144-3 GAME.ngc GAME.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o GAME_map.ncd GAME.ngd GAME.pcf 
+par -w -intstyle ise -ol high -mt off GAME_map.ncd GAME.ncd GAME.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml GAME.twx GAME.ncd -o GAME.twr GAME.pcf -ucf vga.ucf 
+bitgen -intstyle ise -f GAME.ut GAME.ncd 

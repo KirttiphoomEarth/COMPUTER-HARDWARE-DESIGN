@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+GAME instance_name (
+    .W(W), 
+    .S(S), 
+    .HACK(HACK), 
+    .RESET(RESET), 
+    .CLOCK(CLOCK), 
+    .SEND_CLEAR(SEND_CLEAR), 
+    .RED(RED), 
+    .GREEN(GREEN), 
+    .BLUE(BLUE), 
+    .HSYNC(HSYNC), 
+    .VSYNC(VSYNC)
+    );
+
+

@@ -1,0 +1,82 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -2213 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ise/VM/vga_3/pa.fromHdl.tcl
+# create_project -name vga_3 -dir "/home/ise/VM/vga_3/planAhead_run_1" -part xc6slx9tqg144-3
+create_project: Time (s): cpu = 00:00:00.36 ; elapsed = 00:00:05 . Memory (MB): peak = 2645.457 ; gain = 22.172
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "vga.ucf" [current_fileset -constrset]
+Adding file '/home/ise/VM/vga_3/vga.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../vga_from_dee.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top GAME $srcset
+# add_files [list {vga.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "/home/ise/VM/vga_from_dee.vhd" into library work
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/ise/VM/vga_3/vga.ucf]
+Finished Parsing UCF File [/home/ise/VM/vga_3/vga.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: c2263cff
+open_rtl_design: Time (s): cpu = 00:00:01 ; elapsed = 00:00:25 . Memory (MB): peak = 2786.289 ; gain = 131.820
+update_compile_order -fileset sim_1
+set_property iostandard SDIO [get_ports [list BLUE]]
+set_property iostandard SDIO [get_ports [list CLOCK]]
+set_property iostandard SDIO [get_ports [list GREEN]]
+set_property iostandard SDIO [get_ports [list HACK]]
+set_property iostandard PCI66_3 [get_ports [list RED]]
+set_property iostandard LVCMOS25 [get_ports [list RESET]]
+set_property iostandard SDIO [get_ports [list RED]]
+set_property iostandard SDIO [get_ports [list HSYNC]]
+set_property iostandard SDIO [get_ports [list RESET]]
+set_property iostandard SDIO [get_ports [list S]]
+set_property iostandard SDIO [get_ports [list SEND_CLEAR]]
+set_property iostandard SDIO [get_ports [list VSYNC]]
+set_property iostandard SDIO [get_ports [list W]]
+startgroup
+set_property package_pin P9 [get_ports BLUE]
+endgroup
+startgroup
+set_property package_pin P123 [get_ports CLOCK]
+endgroup
+startgroup
+set_property package_pin P7 [get_ports GREEN]
+endgroup
+set_property package_pin "" [get_ports [list  HACK]]
+startgroup
+set_property package_pin P5 [get_ports RED]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports HSYNC]
+endgroup
+save_constraints
+startgroup
+set_property package_pin P16 [get_ports VSYNC]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Mon May 22 01:47:47 2023...
+INFO: [Common 17-83] Releasing license: PlanAhead
